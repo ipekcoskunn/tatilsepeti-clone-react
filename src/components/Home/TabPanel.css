@@ -1,0 +1,77 @@
+.tabs-navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    column-gap: 5px;
+}
+
+.nav-link.active {
+    color: #003466 !important;
+    background-color: #ffc652 !important;
+}
+
+.nav-link {
+    color: #003466 !important;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    display: grid !important;
+    text-align: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+}
+
+.nav-link svg {
+    font-size: 20px !important;
+}
+
+.tabicon1 {
+    background-image: url('../../assets/bed-solid.svg');
+}
+
+.tabs-navbar a {
+    color: #003466;
+    background-color: #ffc652;
+    display: grid;
+    flex: 1;
+    padding: 12px;
+    color: #003466;
+    background-color: #e5e5e5;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.search-panel {
+    background-color: #ffc652;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 412px;
+}
+
+.search-panel label {
+    color: #003466;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #727272;
+}
+
+.search-panel input {
+    margin-bottom: 10px;
+}
+
+.search-panel .search-btn {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #003466;
+    border: 1px solid #003466;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.search-panel .search-btn:hover {
+    background-color: #004e99 !important;
+    color: #fff;
+}
