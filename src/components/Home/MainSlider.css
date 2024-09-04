@@ -1,0 +1,11 @@
+.carousel-home {
+    border-radius: 5px;
+}
+
+.home-slider-img {
+    width: 100%;
+    height: 250px;
+    min-height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
